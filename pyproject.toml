@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-scraping-demo"
+version = "0.1.0"
+description = ""
+authors = ["Karn Wong <karn@karnwong.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+[tool.poetry.group.dev.dependencies]
+icecream = "^2.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
